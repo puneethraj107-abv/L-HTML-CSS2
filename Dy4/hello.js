@@ -4,8 +4,8 @@ var b = "8";
 /***********Do not change the code above 👆*******/
     //Write your code on lines 7 - 9:
 var c = a;
-var a = b;
-var b = c;
+ a = b;
+ b = c;
 
 /***********Do not change the code below 👇*******/
 
