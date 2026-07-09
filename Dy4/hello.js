@@ -11,3 +11,4 @@ var c = a;
 
 console.log("a is " + a);
 console.log("b is " + b);
+console.log("It's fucking time for javascript")
