@@ -12,4 +12,4 @@ function isLeap(year) {
 
 }
 
-isLeap(2000);
+isLeap(2025);
