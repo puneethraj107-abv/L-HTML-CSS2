@@ -6,23 +6,24 @@ for (let i = 0; i < numberofbuttons; i++) {
 //                                                                                              //can be written as anonymous function
 }
 
+// detecting button press
 function handleClick() {
     let buttonhtml = this.innerHTML;
     makeSound(buttonhtml);
     buttonAnimation(buttonhtml);
 }
 
-
-document.addEventListener("keydown", function(event) {
-    makeSound(event.key);
+// detecting keyboard press
+document.addEventListener("keydown", function(event) {//adding event listener to keys
+    makeSound(event.key);//"event" in a function tells us about the keyboardevent that triggered it // name we give to the input does not matter
     buttonAnimation(event.key);
 });
 
 function makeSound(key){
     switch (key) {
         case 'w':
-            let tom1 = new Audio("sounds/tom-1.mp3");
-            tom1.play();
+            let tom1 = new Audio("sounds/tom-1.mp3");//creating a new Audio variable
+            tom1.play();//using play function to play the audio pointed to by the src
             break;
 
         case 'a':
@@ -60,10 +61,12 @@ function makeSound(key){
 
 function buttonAnimation(currentkey){
     let activebutton=document.querySelector("."+currentkey);
-    activebutton.classList.add("pressed");
-    setTimeout(function (){
-        activebutton.classList.remove("pressed")
+    activebutton.classList.add("pressed");// accessing and adding new class to element
+    setTimeout(function (){// setting timer for the animation
+        activebutton.classList.remove("pressed")// removing the class from the element
     },100)
 }
 
-//In JavaScript, this is a special keyword that refers to the object/context that is currently calling the function.
+//In JavaScript, "this" is a special keyword that refers to the object/context that is currently calling the function.
+//Method is a function that is associated with an object
+//Housekeeper1.clean(); -- calling a method
