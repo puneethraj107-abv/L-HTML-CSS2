@@ -6,4 +6,7 @@
 Q. what is Node.js?
 A- Node.js is an asynchronous event driven javascript runtime, it is designed to build scalable network applications.
 
-Note: asynchronous event driven - means node doesnt have to do things sequentially
+Note: asynchronous event driven - means node doesn't have to do things sequentially
+
+Node Read Eval Print Loop(REPL)
+-is a computer environment where user inputs are read and evaluated, and the results are returned to the user.
