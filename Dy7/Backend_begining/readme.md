@@ -10,3 +10,7 @@ Note: asynchronous event driven - means node doesn't have to do things sequentia
 
 Node Read Eval Print Loop(REPL)
 -is a computer environment where user inputs are read and evaluated, and the results are returned to the user.
+
+<!-- 12/09/2026 -->
+// var generateName = require('sillyname'); // used in case for "commonjs" configuration.
+// import { generateName } from 'sillyname'; // used in case for "module" configuration.

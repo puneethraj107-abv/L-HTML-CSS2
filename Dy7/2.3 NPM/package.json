@@ -1,0 +1,26 @@
+{
+  "name": "learning_npm",
+  "version": "1.0.0",
+  "description": "I'm learning about npm",
+  "homepage": "https://github.com/puneethraj107-abv/L-HTML-CSS2#readme",
+  "bugs": {
+    "url": "https://github.com/puneethraj107-abv/L-HTML-CSS2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puneethraj107-abv/L-HTML-CSS2.git"
+  },
+  "license": "ISC",
+  "author": "Puneeth",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inquirer": "^14.2.2",
+    "qrcode": "^1.5.4",
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  }
+}
