@@ -9,6 +9,14 @@ const port = 3000;
 let bandname;
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// if you do this,
+/* function bandNameGenerator(req, res, next) {
+    let bandname = req.body["street"] + req.body["pet"];
+    next();
+}*/
+// then bandname exists only inside bandNameGenerator().
+// Your /submit handler wouldn't be able to access it:
+
 function bandNameGenerator(req, res, next) {
   console.log(req.body);
   bandname = req.body["street"] + req.body["pet"];
