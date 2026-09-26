@@ -6,10 +6,10 @@ const port = 3000;
 
 app.use(morgan("short"));
 
-app.get("/", (req, res) => {
+app.get("/", (req, res) => {  //server handlers
   res.send("Hello");
 });
 
-app.listen(port, () => {
+app.listen(port, () => {   //server handlers
   console.log(`Listening on port ${port}`);
 });
