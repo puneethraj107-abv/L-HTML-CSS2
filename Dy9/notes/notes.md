@@ -5,3 +5,5 @@ res.sendFile(__dirname + "/public/index.html");//only works for static files
 res.render("index.js",{name: req.body["name"]});
 
 app.set("view engine", "ejs");//add this line while using ejs
+
+<!-- 03-10-2026 -->
