@@ -1,0 +1,1 @@
+<%- include("partials/header.ejs") %> <!-- file paths must be relative to the location they are in-->
