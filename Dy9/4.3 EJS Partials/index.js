@@ -11,7 +11,7 @@ Step 3: Add the routes to handle the render of the about and contact pages.
 Step 4: Add the partials to the about and contact pages to show the header and footer on those pages. */
 
 app.set("view engine", "ejs");
-app.use(express.static("public"));
+app.use(express.static("public"));//declaring folder with static elements
 
 app.get("/", (req, res) => {
   res.render("index.ejs");
