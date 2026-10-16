@@ -13,3 +13,8 @@
 12. git rm --cached -r .
 13. code .gitignore //to open any file in vs code
 14. https://github.com/github/gitignore //to find prebuilt lib to add to .gitignore
+15. git clone ................................
+16. git branch name_of_branch //to create a new branch
+17. git checkout name_of_branch //to switch to that branch
+18. git branch //to checkout all the available branch
+19. git merge name_of_branch //to merge the branch to main
